@@ -71,7 +71,7 @@ The string value to be read to determine the appropriate formatting pattern. The
 
 If the provided value is not a number, or the first character doesn't match a number recognized as belong to Visa, MasterCard, American Express or Discover, this method returns a pattern representing a single group 19 digits, the longest number permitted by today's cards.
 
-Note that in some cases the format is guessed prior to being able to determine the actual card type. This is because not all cards can be determined by just the first number, but we don't want to change the format underneath the user by waiting for what in some cases requires 5 digits for a certain match. See `[react-credit-card-display](https://github.com/landisdesign/react-credit-card-display)` for more details on the card type algorithm.
+Note that in some cases the format is guessed prior to being able to determine the actual card type. This is because not all cards can be determined by just the first number, but we don't want to change the format underneath the user by waiting for what in some cases requires 5 digits for a certain match. See [`react-credit-card-display`](https://github.com/landisdesign/react-credit-card-display) for more details on the card type algorithm.
 
 ### formatNumber( {value, selectionStart, selectionEnd} )
 Given an arbitrarily spaced number, returns the number, properly formatted, with the caret position updated if necessary. A new object is returned, with new `value`, `selectionStart` and `selectionEnd` values. This input/output structure is intended to simplify retrieval from an HTMLInputElement and reinsertion of the updated information.
