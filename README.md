@@ -1,11 +1,11 @@
-# react-credit-card-input
+# react-credit-card-input-simple
 
 A React component for formatting and identifying credit card text input.
 
 Import with
 
 ```js
-import CardInput from 'react-credit-card-input';
+import CardInput from 'react-credit-card-input-simple';
 ```
 
 and use it like
@@ -21,13 +21,13 @@ A text field will be presented that includes a line of credit cards to the right
 `react-credit-card-input` has the React Component, and two helper functions for formatting.
 
 ```js
-import CardInput from 'react-credit-card-input';
+import CardInput from 'react-credit-card-input-input';
 ```
 Imports the CardInput React component
 
 
 ```js
-import { getPatternFromNumber, formatNumber } from 'react-credit-card-display';
+import { getPatternFromNumber, formatNumber } from 'react-credit-card-input-simple';
 ```
 Imports the `getPatternFromNumber` and `formatNumber` functions
 

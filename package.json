@@ -1,5 +1,5 @@
 {
-	"name": "react-credit-card-input",
+	"name": "react-credit-card-input-simple",
 	"version": "0.5.0",
 	"description": "A React component for formatting and identifying credit card text input",
 	"license": "MIT",
