@@ -1,6 +1,6 @@
 {
 	"name": "react-credit-card-input-simple",
-	"version": "0.5.1",
+	"version": "0.5.3",
 	"description": "A React component for formatting and identifying credit card text input",
 	"license": "MIT",
 	"author": "Michael Landis <michael4css@gmail.com> (https://michael-landis-awakening.com/development)",
@@ -10,7 +10,7 @@
 		"url": "https://github.com/landisdesign/react-credit-card-input-simple.git"
 	},
 	"dependencies": {
-		"react-credit-card-display": "^0.5.2"
+		"react-credit-card-display": "^0.5.3"
 	},
 	"peerDependencies": {
 		"prop-types": "^15.6.0",
